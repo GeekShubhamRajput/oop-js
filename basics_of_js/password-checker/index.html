@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>password-checker</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="password-strength" class="form">
+      <h1>My Form</h1>
+      
+      <input type="password" id="pwd" name="pwd" onkeyup="passwordChecker()"><br/>
+
+      <div id="password-span">
+        <span>Your password is: </span>
+        <span id="strength-level" class="weak"></span>
+      </div>
+
+    </div>  
+    <script src="password_checker.js"></script>
+  </body>
+
+</html>
